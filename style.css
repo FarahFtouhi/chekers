@@ -1,0 +1,39 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 70px);
+  grid-template-columns: repeat(8, 70px);
+ 
+  justify-content: center;
+  justify-items: center;
+}
+.bleuBox {
+  width: 70px;
+  height: 70px;
+  background-color:blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whiteBoxe {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-black{
+  border-radius: 50%;
+  width: 50px;
+  height:50px;
+  background-color: black;
+}
+.p-white{
+  border-radius: 50%;
+  width: 50px;
+  height:50px;
+  background-color:white;
+}
+
+
+
